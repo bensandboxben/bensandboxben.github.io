@@ -1,1 +1,167 @@
-@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}
+/* Ventus International: supporting styles for the Tailwind CDN page. */
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --ventus-primary: #336699;
+    --ventus-navy: #172b4d;
+    --ventus-slate: #526174;
+    --ventus-border: #dce3ea;
+    --ventus-light: #f5f7fa;
+    --ventus-pale: #edf3f8;
+    --ventus-header-height: 5rem;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--ventus-header-height) + 1rem);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    padding: 0;
+    background: #fff;
+    color: var(--ventus-slate);
+    overscroll-behavior-y: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  img,
+  svg,
+  video {
+    max-width: 100%;
+  }
+
+  img {
+    display: block;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  a {
+    text-underline-offset: 0.18em;
+  }
+
+  main > :first-child {
+    margin-top: 0 !important;
+  }
+
+  main > :last-child {
+    margin-bottom: 0 !important;
+  }
+
+  [id] {
+    scroll-margin-top: calc(var(--ventus-header-height) + 1rem);
+  }
+}
+
+/* The fixed header must remain above page content without covering anchor targets. */
+header {
+  min-height: var(--ventus-header-height);
+}
+
+
+
+/* Ensure long headings and copy do not cause horizontal overflow. */
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote {
+  overflow-wrap: break-word;
+}
+
+/* Form controls have a consistent appearance across browsers. */
+input,
+select,
+textarea {
+  max-width: 100%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid rgba(51, 102, 153, 0.55);
+  outline-offset: 3px;
+}
+
+/* Vacancy controls can scroll horizontally on narrow screens. */
+#vacancies-section button {
+  flex-shrink: 0;
+}
+
+/* Avoid motion for visitors who request reduced animation. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* The design uses a large editorial heading on desktop and a tighter one on mobile. */
+@media (max-width: 767px) {
+  :root {
+    --ventus-header-height: 5rem;
+  }
+
+  body {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  h1.text-display-hero,
+  h1.text-display-hero-mobile {
+    font-size: clamp(2rem, 8vw, 2.5rem);
+    line-height: 1.18;
+  }
+
+  section {
+    scroll-margin-top: calc(var(--ventus-header-height) + 0.75rem);
+  }
+}
+
+/* Keep scrollbar behavior native and accessible. */
+@supports (scrollbar-width: none) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+  }
+}
