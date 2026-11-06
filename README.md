@@ -1,2 +1,765 @@
-# clackscouncil.github.io
-Sample Page Design
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#336699",
+        "primary-dark": "#172B4D",
+        "navy": "#172B4D",
+        "slate-grey": "#526174",
+        "border-light": "#DCE3EA",
+        "bg-white": "#FFFFFF",
+        "bg-light": "#F5F7FA",
+        "bg-pale": "#EDF3F8",
+        "surface": "#FFFFFF",
+        "surface-container": "#F5F7FA",
+        "surface-pale": "#EDF3F8",
+        "text-primary": "#172B4D",
+        "text-secondary": "#526174",
+        "accent": "#336699"
+      },
+      borderRadius: {
+        "DEFAULT": "0.25rem",
+        "lg": "0.375rem",
+        "xl": "0.5rem",
+        "2xl": "0.75rem",
+        "full": "9999px"
+      },
+      spacing: {
+        "space-xl": "3rem",
+        "space-sm": "0.5rem",
+        "space-xs": "0.25rem",
+        "margin-mobile": "1.5rem",
+        "space-md": "1rem",
+        "gutter-mobile": "1rem",
+        "margin": "4rem",
+        "gutter": "2rem",
+        "space-lg": "1.75rem"
+      },
+      fontFamily: {
+        "label-md": ["Plus Jakarta Sans", "sans-serif"],
+        "label-caps": ["Plus Jakarta Sans", "sans-serif"],
+        "headline-sm": ["Newsreader", "serif"],
+        "headline-md": ["Newsreader", "serif"],
+        "headline-lg": ["Newsreader", "serif"],
+        "title-lg": ["Plus Jakarta Sans", "sans-serif"],
+        "title-md": ["Plus Jakarta Sans", "sans-serif"],
+        "headline-lg-mobile": ["Newsreader", "serif"],
+        "display-hero": ["Newsreader", "serif"],
+        "label-lg": ["Plus Jakarta Sans", "sans-serif"],
+        "body-lg": ["Plus Jakarta Sans", "sans-serif"],
+        "body-sm": ["Plus Jakarta Sans", "sans-serif"],
+        "display-hero-mobile": ["Newsreader", "serif"],
+        "body-md": ["Plus Jakarta Sans", "sans-serif"]
+      },
+      fontSize: {
+        "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600"}],
+        "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "700"}],
+        "headline-sm": ["22px", {"lineHeight": "28px", "fontWeight": "500"}],
+        "headline-md": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "500"}],
+        "headline-lg": ["38px", {"lineHeight": "46px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+        "title-lg": ["20px", {"lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+        "title-md": ["17px", {"lineHeight": "24px", "fontWeight": "600"}],
+        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+        "display-hero": ["52px", {"lineHeight": "60px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+        "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+        "body-sm": ["13px", {"lineHeight": "20px", "fontWeight": "400"}],
+        "display-hero-mobile": ["34px", {"lineHeight": "42px", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+        "body-md": ["15px", {"lineHeight": "24px", "fontWeight": "400"}]
+      }
+    }
+  }
+};</script></head><body class="bg-white font-body-md text-body-md text-[#526174] antialiased"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-white border-b border-[#DCE3EA] shadow-[0_2px_12px_rgba(23,43,77,0.03)]"><div class="h-20 max-w-[1340px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group" data-path="home" href="#"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuARwJ6nMuv8lh6Dd1UAJu_NXhyWmV15fe51WDbyCR9onQ09aS8BUI1oThjyVI5QdRcyO8kHOs5FUKGnwFTvYF4KptdJeGvv8Q2xV07pAvoBDmVztTdFGSqb8g5S97avioMPcUgiOxd2sO8-39a3Ab9vWW5d1vxXxVdtZ3pPLZMOrzD5wwFQytUNAMpb-ohMVRk_O9MZjn-TLKM4BkYmsfuy9PyeBAo7aUB_ul7Sk9q07EO3ING4vNsP" alt="Ventus International" class="h-8 w-auto object-contain transition-transform duration-200 group-hover:scale-105" style="filter: invert(1); mix-blend-mode: multiply;"></a></div><nav class="hidden xl:flex items-center gap-space-md" data-active-classes="text-[#336699] font-bold"><div class="relative group py-space-sm"><a class="font-label-lg text-label-lg text-[#172B4D] hover:text-[#336699] transition-colors duration-150 inline-flex items-center gap-1" data-path="services" href="#">Services</a></div><div class="relative group py-space-sm"><a class="font-label-lg text-label-lg text-[#172B4D] hover:text-[#336699] transition-colors duration-150 inline-flex items-center gap-1" data-path="renewable-markets" href="#">Markets</a></div><a class="font-label-lg text-label-lg text-[#172B4D] hover:text-[#336699] transition-colors duration-150" data-path="vacancies" href="#">Vacancies</a><a class="font-label-lg text-label-lg text-[#172B4D] hover:text-[#336699] transition-colors duration-150" data-path="about-ventus" href="#">About Ventus</a><a class="font-label-lg text-label-lg text-[#172B4D] hover:text-[#336699] transition-colors duration-150" data-path="market-insights" href="#">Insights</a><a class="font-label-lg text-label-lg text-[#172B4D] hover:text-[#336699] transition-colors duration-150" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden lg:flex items-center gap-1.5 font-label-md text-label-md text-[#526174] hover:text-[#172B4D] transition-colors duration-150" href="tel:+441313782740"><span class="material-symbols-outlined text-[16px] text-[#336699]">call</span><span class="">+44 (0) 131 378 2740</span></a><a class="bg-[#336699] text-white hover:bg-[#28527a] transition-all duration-200 px-space-md py-space-sm rounded-lg font-label-md text-label-md tracking-wider uppercase shadow-sm hover:-translate-y-0.5" data-path="client-enquiry" href="#client-enquiry">Client Enquiry</a></div></div></header><main class="w-full pt-20 bg-white min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- HERO SECTION: Light, bright & daylight editorial -->
+<section class="relative w-full overflow-hidden bg-white text-[#172B4D] border-b border-[#DCE3EA]">
+<div class="relative max-w-[1340px] mx-auto px-margin-mobile lg:px-margin pt-14 pb-20 lg:pt-20 lg:pb-28">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Column: Copy & Actions -->
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#EDF3F8] border border-[#DCE3EA] text-[#336699] font-label-caps text-label-caps tracking-widest uppercase">
+<span class="w-2 h-2 rounded-full bg-[#336699]"></span>
+            Boutique Search &amp; Advisory • Offshore &amp; Onshore Wind • Solar • Storage • Grid
+          </div>
+<h1 class="font-display-hero text-display-hero tracking-tight text-[#172B4D] leading-tight">
+            International <span class="text-[#336699] italic font-serif">Renewable Energy</span> Executive Search &amp; Specialist Recruitment
+          </h1>
+<p class="font-body-lg text-body-lg text-[#526174] max-w-2xl leading-relaxed">
+            A valued and trusted search partner to organisations financing, developing, constructing, and operating clean energy assets worldwide.
+          </p>
+<div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+<a class="bg-[#336699] text-white hover:bg-[#28527a] transition-all duration-200 px-6 py-3.5 rounded-lg font-label-lg text-label-lg tracking-wider uppercase text-center shadow-sm hover:-translate-y-0.5" href="#client-enquiry">
+              Discuss Your Recruitment Needs
+            </a>
+<a class="bg-white text-[#172B4D] border border-[#DCE3EA] hover:bg-[#F5F7FA] hover:border-[#336699]/40 transition-all duration-200 px-6 py-3.5 rounded-lg font-label-lg text-label-lg tracking-wider uppercase text-center shadow-sm" href="#services-overview">
+              Explore Our Services →
+            </a>
+</div>
+<!-- Micro Credential Strip -->
+<div class="pt-6 flex flex-wrap items-center gap-y-3 gap-x-6 text-[#526174] font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#336699] text-[18px]">location_on</span>
+<span class="">Headquartered in Edinburgh, Scotland</span>
+</div>
+<span class="text-[#DCE3EA] hidden sm:inline">•</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#336699] text-[18px]">public</span>
+<span class="">Mandates Delivered Across Europe, Americas &amp; APAC</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual Feature Imagery -->
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden border border-[#DCE3EA] shadow-lg bg-[#F5F7FA]">
+<img class="w-full h-[470px] object-cover hover:scale-105 transition-all duration-500" data-alt="Modern offshore wind turbines standing tall in bright daylight across calm sunlit blue coastal waters with crisp horizon reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWvITc64FikuIbqbnplL-_Q3g5xTveR2w4kXE4BVGzjdNm4xzkYwnNB0RgZkER9bDWzHS0c9oqyWSqn5G-ivS0r48nHRAlk6GIMDVpQtBEhb8-LEWbDwjCoIQmC3ZaOhT-MSCqS1SwZ_gidB8GNv-0E3v_Dl-czePa2vHYC_nTKNryG-zKUvbOOL8aDphkaTD29K4e_adHvF8gQP3p4zEZjLu38c-nwROADahGY-c">
+<div class="absolute inset-0 bg-gradient-to-t from-[#172B4D]/30 via-transparent to-transparent"></div>
+<!-- Floating Stat Indicator -->
+<div class="absolute bottom-6 left-6 right-6 p-5 rounded-xl bg-white/95 backdrop-blur-md border border-[#DCE3EA] shadow-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps uppercase text-[#336699] tracking-wider">Search Focus</span>
+<p class="font-headline-sm text-headline-sm text-[#172B4D] mt-0.5">C-Suite &amp; Project Leadership</p>
+</div>
+<div class="w-10 h-10 rounded-full bg-[#EDF3F8] border border-[#DCE3EA] flex items-center justify-center text-[#336699]">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTRODUCTION & CREDIBILITY STATEMENT -->
+<section class="w-full bg-[#F5F7FA] py-20 lg:py-24 border-b border-[#DCE3EA]">
+<div class="max-w-[1340px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Editorial Quote Lead -->
+<div class="max-w-4xl mx-auto text-center space-y-5">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Our Track Record &amp; Philosophy</span>
+<blockquote class="font-headline-lg text-headline-lg text-[#172B4D] leading-tight font-serif italic">
+          “Specialists in contract, permanent and executive search, our team has an exceptional track record, working in partnership with clients who finance, develop, construct and operate renewable assets globally.”
+        </blockquote>
+</div>
+<!-- 3 Pillars Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-14 lg:mt-20">
+<div class="p-8 rounded-xl bg-white border border-[#DCE3EA] shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200">
+<div class="w-12 h-12 rounded-lg bg-[#EDF3F8] border border-[#DCE3EA] flex items-center justify-center text-[#336699] mb-6">
+<span class="material-symbols-outlined text-[26px]">energy_savings_leaf</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-[#172B4D] mb-3">Deep Technical Domain Focus</h3>
+<p class="font-body-md text-body-md text-[#526174] leading-relaxed">
+            Exclusively focused across clean power, generation assets, energy storage, and electrical transmission. We understand project lifecycle risks from pre-FEED through to commercial COD.
+          </p>
+</div>
+<div class="p-8 rounded-xl bg-white border border-[#DCE3EA] shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200">
+<div class="w-12 h-12 rounded-lg bg-[#EDF3F8] border border-[#DCE3EA] flex items-center justify-center text-[#336699] mb-6">
+<span class="material-symbols-outlined text-[26px]">travel_explore</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-[#172B4D] mb-3">Research-Led Global Search</h3>
+<p class="font-body-md text-body-md text-[#526174] leading-relaxed">
+            Unrestricted international research and comprehensive competitor intelligence. Our bespoke mapping uncovers top-tier, passive leaders across European, North American, and APAC hubs.
+          </p>
+</div>
+<div class="p-8 rounded-xl bg-white border border-[#DCE3EA] shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200">
+<div class="w-12 h-12 rounded-lg bg-[#EDF3F8] border border-[#DCE3EA] flex items-center justify-center text-[#336699] mb-6">
+<span class="material-symbols-outlined text-[26px]">handshake</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-[#172B4D] mb-3">Senior Partner-Led Delivery</h3>
+<p class="font-body-md text-body-md text-[#526174] leading-relaxed">
+            Every mandate is personally led by experienced industry directors from Edinburgh. We ensure high-touch discretion, rigorous competency vetting, and complete governance alignment.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- CORE SERVICES SECTION -->
+<section class="w-full bg-white py-20 lg:py-24 border-b border-[#DCE3EA]" id="services-overview">
+<div class="max-w-[1340px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Recruitment Solutions</span>
+<h2 class="font-headline-lg text-headline-lg text-[#172B4D] mt-2">Executive &amp; Technical Talent Delivery</h2>
+</div>
+<p class="font-body-md text-body-md text-[#526174] max-w-md">
+          Tailored talent solutions designed specifically for the unique commercial and technical complexities of utility-scale renewables.
+        </p>
+</div>
+<!-- Services Grid: Refined Bright Card Styling -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Primary Featured Card: Executive Search -->
+<div class="lg:col-span-6 rounded-2xl bg-white border-2 border-[#336699]/30 text-[#172B4D] p-8 lg:p-12 flex flex-col justify-between shadow-sm relative overflow-hidden group"><div><div class="flex items-center justify-between mb-6"><span class="px-3.5 py-1 rounded-full bg-[#EDF3F8] border border-[#DCE3EA] text-[#336699] font-label-caps text-label-caps tracking-widest uppercase">Featured Practice</span><span class="material-symbols-outlined text-[#336699] text-[28px]">stars</span></div><h3 class="font-headline-md text-headline-md text-[#172B4D] mb-4">Executive Search</h3><p class="font-body-lg text-body-lg text-[#526174] leading-relaxed mb-6">Board-level appointments, Chief Officers (CEO, CCO, CFO, CTO), Managing Directors, and Vice Presidents for global developers, IPPs, clean infrastructure investment funds, and leading OEMs.</p><ul class="space-y-3 font-body-sm text-body-sm text-[#526174] mb-8"><li class="flex items-center gap-2.5"><span class="material-symbols-outlined text-[#336699] text-[18px]">check_circle</span><span class="">Confidential, rigorous global talent mapping and headhunting</span></li><li class="flex items-center gap-2.5"><span class="material-symbols-outlined text-[#336699] text-[18px]">check_circle</span><span class="">Deep ESG and transformational leadership evaluation</span></li><li class="flex items-center gap-2.5"><span class="material-symbols-outlined text-[#336699] text-[18px]">check_circle</span><span class="">Senior partner accountability throughout mandate lifecycle</span></li></ul></div><div class="pt-4"><a class="inline-flex items-center gap-2 bg-[#336699] hover:bg-[#28527a] text-white px-6 py-3 rounded-lg font-label-md text-label-md uppercase tracking-wider transition-all duration-200 shadow-sm" href="#executive-spotlight"><span class="">Discover Executive Search</span><span class="material-symbols-outlined text-[16px]">arrow_forward</span></a></div></div>
+<!-- Secondary Cards: Permanent & Contractor -->
+<div class="lg:col-span-6 flex flex-col gap-8">
+<!-- Permanent Recruitment Card -->
+<div class="rounded-2xl bg-white border border-[#DCE3EA] p-8 lg:p-10 shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Core Discipline</span>
+<span class="material-symbols-outlined text-[#336699] text-[24px]">group_add</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-[#172B4D] mb-3">Permanent Recruitment</h3>
+<p class="font-body-md text-body-md text-[#526174] leading-relaxed mb-6">
+                Specialist recruitment targeting critical mid-to-senior technical, commercial, engineering, grid, and project development professionals building long-term project teams.
+              </p>
+</div>
+<div>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-[#336699] hover:text-[#172B4D] transition-colors duration-150 uppercase tracking-wider font-bold" href="#vacancies-section">
+<span class="">Explore Permanent Search</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Interim & Contractor Supply Card -->
+<div class="rounded-2xl bg-white border border-[#DCE3EA] p-8 lg:p-10 shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Agile Capability</span>
+<span class="material-symbols-outlined text-[#336699] text-[24px]">bolt</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-[#172B4D] mb-3">Interim Executive &amp; Contractor Supply</h3>
+<p class="font-body-md text-body-md text-[#526174] leading-relaxed mb-6">
+                Rapid-deployment subject matter experts, package managers, construction directors, and commissioning specialists to support key consenting, FID, and construction milestones.
+              </p>
+</div>
+<div>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-[#336699] hover:text-[#172B4D] transition-colors duration-150 uppercase tracking-wider font-bold" href="#vacancies-section">
+<span class="">Explore Contractor Solutions</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- RENEWABLE MARKETS DIRECTORY -->
+<section class="w-full bg-[#F5F7FA] py-20 lg:py-24 border-b border-[#DCE3EA]">
+<div class="max-w-[1340px] mx-auto px-margin-mobile lg:px-margin">
+<div class="max-w-3xl mb-12">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Sector Expertise</span>
+<h2 class="font-headline-lg text-headline-lg text-[#172B4D] mt-2">Comprehensive Renewable Power Markets</h2>
+<p class="font-body-md text-body-md text-[#526174] mt-3">
+          Our specialized recruiters work across every stage of the energy transition, connecting proven industry pioneers with critical asset opportunities.
+        </p>
+</div>
+<!-- Sector Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Offshore Wind -->
+<div class="p-6 rounded-xl bg-white border border-[#DCE3EA] shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 group">
+<div class="flex items-center justify-between mb-4">
+<span class="material-symbols-outlined text-[#336699] text-[28px]">waves</span>
+<span class="font-label-caps text-label-caps text-[#526174] uppercase">Global Reach</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Offshore Wind</h4>
+<p class="font-body-sm text-body-sm text-[#526174] leading-relaxed mb-4">
+            Fixed-bottom foundations, floating offshore wind developments, package management, marine operations, and port logistics.
+          </p>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">Floating Wind</span>
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">Consents &amp; FEED</span>
+</div>
+</div>
+<!-- Onshore Wind -->
+<div class="p-6 rounded-xl bg-white border border-[#DCE3EA] shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 group">
+<div class="flex items-center justify-between mb-4">
+<span class="material-symbols-outlined text-[#336699] text-[28px]">wind_power</span>
+<span class="font-label-caps text-label-caps text-[#526174] uppercase">Europe &amp; US</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Onshore Wind</h4>
+<p class="font-body-sm text-body-sm text-[#526174] leading-relaxed mb-4">
+            Turbine technology, repowering schemes, greenfield land acquisition, development management, and operational asset management.
+          </p>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">Repowering</span>
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">Asset Management</span>
+</div>
+</div>
+<!-- Solar PV -->
+<div class="p-6 rounded-xl bg-white border border-[#DCE3EA] shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 group">
+<div class="flex items-center justify-between mb-4">
+<span class="material-symbols-outlined text-[#336699] text-[28px]">solar_power</span>
+<span class="font-label-caps text-label-caps text-[#526174] uppercase">Utility Scale</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Solar PV</h4>
+<p class="font-body-sm text-body-sm text-[#526174] leading-relaxed mb-4">
+            Utility-scale ground mount solar portfolios, commercial &amp; industrial (C&amp;I), EPC management, and PPA commercial structuring.
+          </p>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">Utility PV</span>
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">PPA Structuring</span>
+</div>
+</div>
+<!-- Battery Energy Storage Systems -->
+<div class="p-6 rounded-xl bg-white border border-[#DCE3EA] shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 group">
+<div class="flex items-center justify-between mb-4">
+<span class="material-symbols-outlined text-[#336699] text-[28px]">battery_charging_full</span>
+<span class="font-label-caps text-label-caps text-[#526174] uppercase">High Growth</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Battery Storage (BESS)</h4>
+<p class="font-body-sm text-body-sm text-[#526174] leading-relaxed mb-4">
+            Standalone and co-located hybrid battery storage systems, frequency response optimization, route-to-market trading specialists.
+          </p>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">BESS Route-to-Market</span>
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">Co-location</span>
+</div>
+</div>
+<!-- Transmission & Distribution -->
+<div class="p-6 rounded-xl bg-white border border-[#DCE3EA] shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 group">
+<div class="flex items-center justify-between mb-4">
+<span class="material-symbols-outlined text-[#336699] text-[28px]">electrical_services</span>
+<span class="font-label-caps text-label-caps text-[#526174] uppercase">Critical Grid</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Grid &amp; Transmission</h4>
+<p class="font-body-sm text-body-sm text-[#526174] leading-relaxed mb-4">
+            HVDC interconnectors, offshore substations, grid connection queue navigation, transformers, and national network integration.
+          </p>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">HVDC Systems</span>
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">Substations</span>
+</div>
+</div>
+<!-- Clean Fuels & Hydrogen -->
+<div class="p-6 rounded-xl bg-white border border-[#DCE3EA] shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 group">
+<div class="flex items-center justify-between mb-4">
+<span class="material-symbols-outlined text-[#336699] text-[28px]">science</span>
+<span class="font-label-caps text-label-caps text-[#526174] uppercase">Energy Transition</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Clean Fuels &amp; Hydrogen</h4>
+<p class="font-body-sm text-body-sm text-[#526174] leading-relaxed mb-4">
+            Green hydrogen, Power-to-X technologies, carbon capture utilization &amp; storage (CCUS), and sustainable synthetic fuels.
+          </p>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">PtX</span>
+<span class="px-2 py-0.5 rounded bg-[#EDF3F8] text-[#172B4D] font-label-caps text-label-caps">Green Hydrogen</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- EXECUTIVE SEARCH SPOTLIGHT SECTION: Light, spacious & elegant -->
+<section class="w-full bg-white py-20 lg:py-24 border-b border-[#DCE3EA]" id="executive-spotlight">
+<div class="max-w-[1340px] mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5 space-y-6">
+<span class="font-label-caps text-label-caps text-[#336699] uppercase tracking-widest">Confidential Advisory</span>
+<h2 class="font-headline-lg text-headline-lg text-[#172B4D] font-serif leading-tight">
+            Securing Visionary Leadership for the Clean Energy Era
+          </h2>
+<p class="font-body-md text-body-md text-[#526174] leading-relaxed">
+            The energy transition demands resilient, visionary leaders capable of steering capital through unprecedented regulatory, geopolitical, and engineering challenges. Ventus executes discreet mandates for high-stakes positions.
+          </p>
+<div class="p-5 rounded-xl bg-[#EDF3F8] border border-[#DCE3EA] space-y-2.5">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[#336699] text-[20px]">shield</span>
+<span class="font-title-md text-title-md text-[#172B4D]">Guaranteed Confidentiality</span>
+</div>
+<p class="font-body-sm text-body-sm text-[#526174]">
+              All mandates adhere to strict non-disclosure protocols, ensuring sensitive organizational restructures and expansion plans remain secure.
+            </p>
+</div>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 bg-[#336699] text-white hover:bg-[#28527a] transition-colors px-6 py-3.5 rounded-lg font-label-md text-label-md uppercase tracking-wider font-bold shadow-sm" href="#client-enquiry">
+<span class="">Schedule a Confidential Consultation</span>
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</a>
+</div>
+</div>
+<!-- 4-Step Methodology Process Timeline: Light background container -->
+<div class="lg:col-span-7 bg-[#F5F7FA] border border-[#DCE3EA] p-8 lg:p-10 rounded-2xl shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-[#172B4D] mb-8 pb-3 border-b border-[#DCE3EA]">Executive Search Methodology</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div class="p-5 rounded-lg bg-white border border-[#DCE3EA]">
+<span class="font-label-caps text-label-caps text-[#336699] uppercase">Phase 01</span>
+<h4 class="font-title-md text-title-md text-[#172B4D] mt-1 mb-2">Mandate Discovery</h4>
+<p class="font-body-sm text-body-sm text-[#526174]">
+                In-depth alignment on corporate governance, culture, key strategic goals, and technical leadership metrics.
+              </p>
+</div>
+<div class="p-5 rounded-lg bg-white border border-[#DCE3EA]">
+<span class="font-label-caps text-label-caps text-[#336699] uppercase">Phase 02</span>
+<h4 class="font-title-md text-title-md text-[#172B4D] mt-1 mb-2">Global Market Mapping</h4>
+<p class="font-body-sm text-body-sm text-[#526174]">
+                Exhaustive research uncovering unlisted candidates across Tier 1 developers, investment firms, and utilities globally.
+              </p>
+</div>
+<div class="p-5 rounded-lg bg-white border border-[#DCE3EA]">
+<span class="font-label-caps text-label-caps text-[#336699] uppercase">Phase 03</span>
+<h4 class="font-title-md text-title-md text-[#172B4D] mt-1 mb-2">Competency Evaluation</h4>
+<p class="font-body-sm text-body-sm text-[#526174]">
+                Multi-stage technical interviews, reference verification, track record scrutiny, and leadership behavioral assessment.
+              </p>
+</div>
+<div class="p-5 rounded-lg bg-white border border-[#DCE3EA]">
+<span class="font-label-caps text-label-caps text-[#336699] uppercase">Phase 04</span>
+<h4 class="font-title-md text-title-md text-[#172B4D] mt-1 mb-2">Strategic Onboarding</h4>
+<p class="font-body-sm text-body-sm text-[#526174]">
+                Offer negotiations, equity structure consulting, and structured check-ins through the initial 12 months.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MODERN VACANCIES EXPLORER -->
+<section class="w-full bg-[#F5F7FA] py-20 lg:py-24 border-b border-[#DCE3EA]" id="vacancies-section">
+<div class="max-w-[1340px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Opportunity Pipeline</span>
+<h2 class="font-headline-lg text-headline-lg text-[#172B4D] mt-2">Current Clean Energy Vacancies</h2>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-[#336699] hover:text-[#172B4D] transition-colors duration-150 uppercase tracking-wider font-semibold" href="#candidate-network">
+<span class="">Register CV with Consultants</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Search & Filter Controls -->
+<div class="bg-white p-4 rounded-xl border border-[#DCE3EA] shadow-sm mb-8 space-y-4">
+<div class="flex flex-col lg:flex-row gap-4">
+<!-- Text Input -->
+<div class="flex-1 relative">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[#526174] text-[20px]">search</span>
+<input class="w-full pl-11 pr-4 py-3 bg-[#F5F7FA] border border-[#DCE3EA] rounded-lg text-[#172B4D] placeholder:text-[#526174]/70 font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-[#336699]/30" placeholder="Search by role title, technology, or location (e.g. Floating Wind, Madrid)..." type="text">
+</div>
+<!-- Market Filter Badges -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1 lg:pb-0"><button class="px-4 py-2.5 rounded-lg bg-[#336699] text-white font-label-md text-label-md whitespace-nowrap shadow-sm">All Markets</button><button class="px-4 py-2.5 rounded-lg bg-[#F5F7FA] hover:bg-[#DCE3EA] text-[#526174] font-label-md text-label-md whitespace-nowrap transition-colors border border-[#DCE3EA]">Offshore Wind</button><button class="px-4 py-2.5 rounded-lg bg-[#F5F7FA] hover:bg-[#DCE3EA] text-[#526174] font-label-md text-label-md whitespace-nowrap transition-colors border border-[#DCE3EA]">Solar PV</button><button class="px-4 py-2.5 rounded-lg bg-[#F5F7FA] hover:bg-[#DCE3EA] text-[#526174] font-label-md text-label-md whitespace-nowrap transition-colors border border-[#DCE3EA]">Battery Storage</button><button class="px-4 py-2.5 rounded-lg bg-[#F5F7FA] hover:bg-[#DCE3EA] text-[#526174] font-label-md text-label-md whitespace-nowrap transition-colors border border-[#DCE3EA]">Grid &amp; HV</button><button class="px-4 py-2.5 rounded-lg bg-[#F5F7FA] hover:bg-[#DCE3EA] text-[#526174] font-label-md text-label-md whitespace-nowrap transition-colors border border-[#DCE3EA]">Executive</button></div>
+</div>
+</div>
+<!-- Vacancy Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Job 1 -->
+<div class="bg-white border border-[#DCE3EA] p-6 rounded-xl shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="px-2.5 py-0.5 rounded bg-[#EDF3F8] text-[#336699] font-label-caps text-label-caps uppercase border border-[#DCE3EA]">Executive Search</span>
+<span class="text-[#526174] font-body-sm text-body-sm">2 days ago</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Chief Commercial Officer (CCO)</h4>
+<p class="font-body-sm text-body-sm text-[#526174] mb-4">Global Offshore Wind Portfolio</p>
+<div class="space-y-1.5 font-body-sm text-body-sm text-[#526174] mb-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">location_on</span>
+<span class="">Edinburgh / London (Hybrid)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">schedule</span>
+<span class="">Full Time • Executive Mandate</span>
+</div>
+</div>
+</div>
+<div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-[#336699] hover:text-[#172B4D] uppercase tracking-wider font-semibold" href="#client-enquiry">
+<span class="">View Vacancy Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Job 2 -->
+<div class="bg-white border border-[#DCE3EA] p-6 rounded-xl shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="px-2.5 py-0.5 rounded bg-[#EDF3F8] text-[#336699] font-label-caps text-label-caps uppercase border border-[#DCE3EA]">Executive Search</span>
+<span class="text-[#526174] font-body-sm text-body-sm">Just added</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Project Director – 1.2GW Floating Wind</h4>
+<p class="font-body-sm text-body-sm text-[#526174] mb-4">Utility Developer Joint Venture</p>
+<div class="space-y-1.5 font-body-sm text-body-sm text-[#526174] mb-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">location_on</span>
+<span class="">Aberdeen / Edinburgh / Hybrid</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">schedule</span>
+<span class="">Full Time • Senior Leadership</span>
+</div>
+</div>
+</div>
+<div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-[#336699] hover:text-[#172B4D] uppercase tracking-wider font-semibold" href="#client-enquiry">
+<span class="">View Vacancy Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Job 3 -->
+<div class="bg-white border border-[#DCE3EA] p-6 rounded-xl shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="px-2.5 py-0.5 rounded bg-[#F5F7FA] text-[#172B4D] font-label-caps text-label-caps uppercase border border-[#DCE3EA]">Permanent</span>
+<span class="text-[#526174] font-body-sm text-body-sm">1 week ago</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Head of Grid Integration &amp; HV</h4>
+<p class="font-body-sm text-body-sm text-[#526174] mb-4">Independent Power Producer (IPP)</p>
+<div class="space-y-1.5 font-body-sm text-body-sm text-[#526174] mb-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">location_on</span>
+<span class="">London / Remote</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">schedule</span>
+<span class="">Full Time • Permanent</span>
+</div>
+</div>
+</div>
+<div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-[#336699] hover:text-[#172B4D] uppercase tracking-wider font-semibold" href="#client-enquiry">
+<span class="">View Vacancy Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Job 4 -->
+<div class="bg-white border border-[#DCE3EA] p-6 rounded-xl shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="px-2.5 py-0.5 rounded bg-[#F5F7FA] text-[#172B4D] font-label-caps text-label-caps uppercase border border-[#DCE3EA]">Permanent</span>
+<span class="text-[#526174] font-body-sm text-body-sm">4 days ago</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Senior BESS Development Manager</h4>
+<p class="font-body-sm text-body-sm text-[#526174] mb-4">European Storage Platform</p>
+<div class="space-y-1.5 font-body-sm text-body-sm text-[#526174] mb-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">location_on</span>
+<span class="">Madrid, Spain (Hybrid)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">schedule</span>
+<span class="">Full Time • Permanent</span>
+</div>
+</div>
+</div>
+<div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-[#336699] hover:text-[#172B4D] uppercase tracking-wider font-semibold" href="#client-enquiry">
+<span class="">View Vacancy Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Job 5 -->
+<div class="bg-white border border-[#DCE3EA] p-6 rounded-xl shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="px-2.5 py-0.5 rounded bg-[#EDF3F8] text-[#336699] font-label-caps text-label-caps uppercase border border-[#DCE3EA]">Contract</span>
+<span class="text-[#526174] font-body-sm text-body-sm">3 days ago</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Package Manager – Substations</h4>
+<p class="font-body-sm text-body-sm text-[#526174] mb-4">Offshore Transmission Owner (OFTO)</p>
+<div class="space-y-1.5 font-body-sm text-body-sm text-[#526174] mb-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">location_on</span>
+<span class="">Northern Europe • Site Based</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">schedule</span>
+<span class="">12 Month Contract • Interim Supply</span>
+</div>
+</div>
+</div>
+<div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-[#336699] hover:text-[#172B4D] uppercase tracking-wider font-semibold" href="#client-enquiry">
+<span class="">View Vacancy Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Job 6 -->
+<div class="bg-white border border-[#DCE3EA] p-6 rounded-xl shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="px-2.5 py-0.5 rounded bg-[#F5F7FA] text-[#172B4D] font-label-caps text-label-caps uppercase border border-[#DCE3EA]">Permanent</span>
+<span class="text-[#526174] font-body-sm text-body-sm">1 week ago</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-[#172B4D] mb-2">Senior Solar PV Engineering Lead</h4>
+<p class="font-body-sm text-body-sm text-[#526174] mb-4">Clean Energy Investment Group</p>
+<div class="space-y-1.5 font-body-sm text-body-sm text-[#526174] mb-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">location_on</span>
+<span class="">Glasgow / Edinburgh / Hybrid</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#336699]">schedule</span>
+<span class="">Full Time • Technical Lead</span>
+</div>
+</div>
+</div>
+<div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-[#336699] hover:text-[#172B4D] uppercase tracking-wider font-semibold" href="#client-enquiry">
+<span class="">View Vacancy Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<div class="mt-12 text-center">
+<a class="inline-flex items-center justify-center bg-white border border-[#DCE3EA] text-[#172B4D] hover:bg-[#336699] hover:text-white hover:border-[#336699] transition-all duration-200 px-8 py-3.5 rounded-lg font-label-md text-label-md uppercase tracking-wider shadow-sm" href="#client-enquiry">
+          Browse All Current Vacancies • Register For Alerts
+        </a>
+</div>
+</div>
+</section>
+<!-- CANDIDATE & EXECUTIVE NETWORK PATHWAY: Light & bright -->
+<section class="w-full bg-white py-20 lg:py-24 border-b border-[#DCE3EA]" id="candidate-network">
+<div class="max-w-[1340px] mx-auto px-margin-mobile lg:px-margin">
+<div class="rounded-2xl bg-[#EDF3F8] border border-[#DCE3EA] p-8 lg:p-14 shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-8 space-y-4">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Candidate &amp; Leadership Network</span>
+<h2 class="font-headline-lg text-headline-lg text-[#172B4D] font-serif">Take the Next Step in Your Renewable Energy Career</h2>
+<p class="font-body-lg text-body-lg text-[#526174] leading-relaxed max-w-2xl">
+              You are one step away from finding your calling in renewable energy. Whether you are actively seeking your next executive mandate or discreetly evaluating future clean transition opportunities, connect directly with our Edinburgh consulting team.
+            </p>
+</div>
+<div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-4">
+<a class="bg-[#336699] text-white hover:bg-[#28527a] transition-colors duration-200 px-6 py-3.5 rounded-lg font-label-md text-label-md tracking-wider uppercase text-center shadow-sm" href="#client-enquiry">
+              Submit Your CV / Profile
+            </a>
+<a class="bg-white text-[#172B4D] border border-[#DCE3EA] hover:bg-[#F5F7FA] transition-colors duration-200 px-6 py-3.5 rounded-lg font-label-md text-label-md tracking-wider uppercase text-center shadow-sm" href="#client-enquiry">
+              Register for Confidential Alerts
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CLIENT RECRUITMENT ENQUIRY SECTION -->
+<section class="w-full bg-[#F5F7FA] py-20 lg:py-24 border-b border-[#DCE3EA]" id="client-enquiry">
+<div class="max-w-[1340px] mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Left: Context & Contact Details -->
+<div class="lg:col-span-5 space-y-6">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Client Partnerships</span>
+<h2 class="font-headline-lg text-headline-lg text-[#172B4D] leading-tight">
+            Partner With Ventus on Your Next Critical Appointment
+          </h2>
+<p class="font-body-md text-body-md text-[#526174] leading-relaxed">
+            Discuss your talent acquisition requirements with our specialist directors. Whether executing a retained executive search or assembling an on-site project team, we bring proven market intelligence and precision.
+          </p>
+<div class="space-y-4 pt-2">
+<div class="p-5 rounded-xl bg-white border border-[#DCE3EA] shadow-sm">
+<span class="font-label-caps text-label-caps uppercase text-[#336699]">Edinburgh Headquarters</span>
+<p class="font-body-sm text-body-sm text-[#172B4D] mt-1">
+                The Auction House, 63A George Street<br>Edinburgh EH2 2JG, Scotland, UK
+              </p>
+</div>
+<div class="p-5 rounded-xl bg-white border border-[#DCE3EA] shadow-sm space-y-2 font-body-sm text-body-sm">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[#336699] text-[20px]">call</span>
+<a class="text-[#172B4D] font-semibold hover:text-[#336699] transition-colors" href="tel:+441313782740">+44 (0) 131 378 2740</a>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[#336699] text-[20px]">mail</span>
+<a class="text-[#172B4D] font-semibold hover:text-[#336699] transition-colors" href="mailto:hello@ventus-international.com">hello@ventus-international.com</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Inquiry Form -->
+<div class="lg:col-span-7 bg-white border border-[#DCE3EA] p-8 lg:p-10 rounded-2xl shadow-sm"><h3 class="font-title-lg text-title-lg text-[#172B4D] mb-6">Confidential Recruitment Consultation Request</h3><form class="space-y-4" onsubmit="event.preventDefault(); alert('Thank you for contacting Ventus International. An Edinburgh director will follow up shortly.');"><div class="grid grid-cols-1 sm:grid-cols-2 gap-4"><div class="space-y-1.5"><label class="font-label-caps text-label-caps uppercase text-[#172B4D]">Full Name *</label><input class="w-full px-4 py-3 rounded-lg bg-white border border-[#DCE3EA] text-[#172B4D] font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-[#336699]/30" placeholder="e.g. Alistair Macleod" required="" type="text"></div><div class="space-y-1.5"><label class="font-label-caps text-label-caps uppercase text-[#172B4D]">Corporate Email *</label><input class="w-full px-4 py-3 rounded-lg bg-white border border-[#DCE3EA] text-[#172B4D] font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-[#336699]/30" placeholder="name@energygroup.com" required="" type="email"></div></div><div class="grid grid-cols-1 sm:grid-cols-2 gap-4"><div class="space-y-1.5"><label class="font-label-caps text-label-caps uppercase text-[#172B4D]">Company / Organisation *</label><input class="w-full px-4 py-3 rounded-lg bg-white border border-[#DCE3EA] text-[#172B4D] font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-[#336699]/30" placeholder="e.g. Scottish Offshore Renewables" required="" type="text"></div><div class="space-y-1.5"><label class="font-label-caps text-label-caps uppercase text-[#172B4D]">Service Required *</label><select class="w-full px-4 py-3 rounded-lg bg-white border border-[#DCE3EA] text-[#172B4D] font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-[#336699]/30"><option>Executive Search (Board / C-Suite)</option><option>Permanent Recruitment (Senior Technical)</option><option>Interim &amp; Contractor Supply</option><option>Strategic Talent Advisory</option></select></div></div><div class="space-y-1.5"><label class="font-label-caps text-label-caps uppercase text-[#172B4D]">Primary Renewable Sector *</label><select class="w-full px-4 py-3 rounded-lg bg-white border border-[#DCE3EA] text-[#172B4D] font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-[#336699]/30"><option>Offshore Wind (Fixed / Floating)</option><option>Onshore Wind</option><option>Solar PV</option><option>Battery Storage (BESS)</option><option>Grid &amp; High Voltage Transmission</option><option>Marine &amp; Clean Hydrogen</option></select></div><div class="space-y-1.5"><label class="font-label-caps text-label-caps uppercase text-[#172B4D]">Requirement Overview / Mandate Brief</label><textarea class="w-full px-4 py-3 rounded-lg bg-white border border-[#DCE3EA] text-[#172B4D] font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-[#336699]/30" placeholder="Please outline the target role, project geography, timeline, or key specifications..." rows="4"></textarea></div><p class="font-body-sm text-body-sm text-[#526174]">All communications are handled under strict confidentiality. We do not share inquiries with third parties.</p><button class="w-full bg-[#336699] hover:bg-[#28527a] text-white py-4 rounded-lg font-label-md text-label-md uppercase tracking-wider font-bold transition-colors duration-200 shadow-sm" type="submit">Submit Recruitment Consultation Request</button></form></div>
+</div>
+</div>
+</section>
+<!-- LATEST MARKET INSIGHTS & NEWS -->
+<section class="w-full bg-white py-20 lg:py-24">
+<div class="max-w-[1340px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Market Commentary</span>
+<h2 class="font-headline-lg text-headline-lg text-[#172B4D] mt-2">Latest Insights &amp; Ventus News</h2>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-[#336699] hover:text-[#172B4D] transition-colors duration-150 uppercase tracking-wider font-semibold" href="#vacancies-section">
+<span class="">View All Articles</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Real News Articles Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- News 1 -->
+<div class="rounded-xl bg-white border border-[#DCE3EA] overflow-hidden shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between group">
+<div class="relative h-44 overflow-hidden bg-[#EDF3F8]">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Modern offshore wind turbines stretching into bright turquoise sea under morning sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCu--0Y4iKvs3Ud-9QTqNYsCFi59ZbDmNEikc_12MVK8yVFTJ4XX-NWl-Az4GbOX3YxHk0Rd4NQYX-sTXAzJBb7U5pp55fVPvd9c9U5ECLi_ZesVL4bu3LJEUFS3UQTLUjFxcKG50YymMO7sclUZejMleeJw8B9cXG2YIfLDu5tB7KAVkyq8z53FZC9pbelv0basYnK2B674_KU5LCLAVLmbQ0pVk4hc-43s3FgQLg">
+<span class="absolute top-3 left-3 px-2.5 py-0.5 rounded bg-white/90 backdrop-blur-sm text-[#336699] font-label-caps text-label-caps uppercase border border-[#DCE3EA]">Article</span>
+</div>
+<div class="p-5 flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-title-md text-title-md text-[#172B4D] group-hover:text-[#336699] transition-colors mb-2">
+                Energy Security Isn't Just a Policy Target. It's an Economic Imperative.
+              </h4>
+<p class="font-body-sm text-body-sm text-[#526174] line-clamp-2 mb-4">
+                Analysis on how European utility developers and capital sponsors are accelerating leadership appointments to safeguard grid reliability.
+              </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps text-[#336699] uppercase font-semibold">
+              Read More →
+            </span>
+</div>
+</div>
+<!-- News 2 -->
+<div class="rounded-xl bg-white border border-[#DCE3EA] overflow-hidden shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between group">
+<div class="relative h-44 overflow-hidden bg-[#EDF3F8]">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="An elegant evening industry banquet in Edinburgh with architectural lighting and executive guests" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBF0tFmuQBjZcd-u_f6BtX0rvDDmc3qWvMSGCq3bLtvxJLwgRglXHmxvMUxZDPpRSGmpNaHuBYRU0mPHbHNlvffLey2KTdpbvuj9e_HodGIE5O-WHcZi81VMjogtlZyIdSQ_UKhC2qh5psbpdzbLNSVpixqbNP32PYGfY6g2Q_F_X5oHlHP5Amm-Y-tKdhd-ORVOQ8X04rK9u0oE8_BAuVA5hzGa9OoG_wrGQhX5_g">
+<span class="absolute top-3 left-3 px-2.5 py-0.5 rounded bg-white/90 backdrop-blur-sm text-[#336699] font-label-caps text-label-caps uppercase border border-[#DCE3EA]">Company News</span>
+</div>
+<div class="p-5 flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-title-md text-title-md text-[#172B4D] group-hover:text-[#336699] transition-colors mb-2">
+                Offshore Wind Burns Supper 2026
+              </h4>
+<p class="font-body-sm text-body-sm text-[#526174] line-clamp-2 mb-4">
+                Ventus brings together international clean energy leaders for our annual celebration of Scottish renewable heritage and global collaboration.
+              </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps text-[#336699] uppercase font-semibold">
+              Read More →
+            </span>
+</div>
+</div>
+<!-- News 3 -->
+<div class="rounded-xl bg-white border border-[#DCE3EA] overflow-hidden shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between group">
+<div class="relative h-44 overflow-hidden bg-[#EDF3F8]">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Architectural view of historic George Street in Edinburgh with Georgian facades in daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5ndbsy11jZLL1I6EOrnmL_3qZJ_lAlOAH_ghiPCvakxZE_HxciQ7QHBZprjosBCjA2og9onl3VqeKyeDDJ2bevTw7WrDn2KFGrVu2SM6Ev_vRkqwDYW6W0t6xLmgTRb7j8YEFnOrsvBz5EVaSfVpnDRNgr1ohVHM1h2rwYnHchArq3ibG0Rictnj0x19whe7hrpPjAe5RPrnqPMOjicJ1BARIZZN8fPRBzI0Io-A">
+<span class="absolute top-3 left-3 px-2.5 py-0.5 rounded bg-white/90 backdrop-blur-sm text-[#336699] font-label-caps text-label-caps uppercase border border-[#DCE3EA]">Company News</span>
+</div>
+<div class="p-5 flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-title-md text-title-md text-[#172B4D] group-hover:text-[#336699] transition-colors mb-2">
+                Ventus Moves Into New George Street Offices in Edinburgh
+              </h4>
+<p class="font-body-sm text-body-sm text-[#526174] line-clamp-2 mb-4">
+                Expanding our search practice headquarters into The Auction House on 63A George Street to accommodate growing international operations.
+              </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps text-[#336699] uppercase font-semibold">
+              Read More →
+            </span>
+</div>
+</div>
+<!-- News 4 -->
+<div class="rounded-xl bg-white border border-[#DCE3EA] overflow-hidden shadow-sm hover:border-[#336699]/40 hover:shadow-md transition-all duration-200 flex flex-col justify-between group">
+<div class="relative h-44 overflow-hidden bg-[#EDF3F8]">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Dramatic aerial drone view of massive floating offshore wind platforms moored in deep coastal waters in daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC38b0IzzLwH5-OXjEgBpPjUPSVLlPzfre8YtLiI6EYLrgkF_ExxIV9SevUjk2z3_IU90sCuDUpsVmNhPaBTrArHJaOBgOVIPlPkfhCrFKtj8TI_WeeuAhhKRW8q2DHQhj3xhQYdtoMftGqkWTaC6R7S9V4A1v5DQstmZooKeKNaImebZ97cw0nqWbfQXrq7ribZRtkv8cqQH4-0_EkEWVXyHSyIO9o77T8wCaG_Ts">
+<span class="absolute top-3 left-3 px-2.5 py-0.5 rounded bg-white/90 backdrop-blur-sm text-[#336699] font-label-caps text-label-caps uppercase border border-[#DCE3EA]">Strategic JV</span>
+</div>
+<div class="p-5 flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-title-md text-title-md text-[#172B4D] group-hover:text-[#336699] transition-colors mb-2">
+                Ventus Partners With bp and EnBW Offshore Wind JV
+              </h4>
+<p class="font-body-sm text-body-sm text-[#526174] line-clamp-2 mb-4">
+                Selected as specialist recruitment partner to deliver high-impact engineering and commercial talent for landmark ScotWind lease sites.
+              </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps text-[#336699] uppercase font-semibold">
+              Read More →
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><!-- FOOTER: Very light grey & pale blue-grey with dark navy text and slate links --><footer class="w-full bg-[#F5F7FA] text-[#172B4D] border-t border-[#DCE3EA]"><div class="max-w-[1340px] mx-auto px-margin-mobile lg:px-margin pt-14 pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 mb-12"><div class="lg:col-span-4 space-y-4"><div class="flex items-center gap-space-sm"><a href="#" class="inline-flex items-center"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuARwJ6nMuv8lh6Dd1UAJu_NXhyWmV15fe51WDbyCR9onQ09aS8BUI1oThjyVI5QdRcyO8kHOs5FUKGnwFTvYF4KptdJeGvv8Q2xV07pAvoBDmVztTdFGSqb8g5S97avioMPcUgiOxd2sO8-39a3Ab9vWW5d1vxXxVdtZ3pPLZMOrzD5wwFQytUNAMpb-ohMVRk_O9MZjn-TLKM4BkYmsfuy9PyeBAo7aUB_ul7Sk9q07EO3ING4vNsP" alt="Ventus International" class="h-8 w-auto object-contain" style="filter: invert(1); mix-blend-mode: multiply;"></a></div><p class="font-body-md text-body-md text-[#526174] leading-relaxed max-w-sm">A valued and trusted search partner to global renewable energy companies across Executive Search, Permanent and Contractor solutions.</p><div class="pt-1 font-label-caps text-label-caps text-[#526174] uppercase tracking-wider"><span class="">Registered in Scotland • Company No. SC661762</span></div></div><div class="lg:col-span-2 space-y-3"><h4 class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Services</h4><ul class="space-y-2"><li class="font-body-sm text-body-sm text-[#526174] hover:text-[#172B4D] transition-colors cursor-pointer">Executive Search</li><li class="font-body-sm text-body-sm text-[#526174] hover:text-[#172B4D] transition-colors cursor-pointer">Permanent Recruitment</li><li class="font-body-sm text-body-sm text-[#526174] hover:text-[#172B4D] transition-colors cursor-pointer">Interim &amp; Contractor Supply</li><li class="font-body-sm text-body-sm text-[#526174] hover:text-[#172B4D] transition-colors cursor-pointer">Board &amp; Advisory Appointments</li></ul></div><div class="lg:col-span-3 space-y-3"><h4 class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Renewable Markets</h4><ul class="space-y-2"><li class="font-body-sm text-body-sm text-[#526174] hover:text-[#172B4D] transition-colors cursor-pointer">Offshore Wind</li><li class="font-body-sm text-body-sm text-[#526174] hover:text-[#172B4D] transition-colors cursor-pointer">Onshore Wind</li><li class="font-body-sm text-body-sm text-[#526174] hover:text-[#172B4D] transition-colors cursor-pointer">Solar &amp; Battery Storage</li><li class="font-body-sm text-body-sm text-[#526174] hover:text-[#172B4D] transition-colors cursor-pointer">Grid &amp; Transmission Infrastructure</li><li class="font-body-sm text-body-sm text-[#526174] hover:text-[#172B4D] transition-colors cursor-pointer">Marine Renewables</li><li class="font-body-sm text-body-sm text-[#526174] hover:text-[#172B4D] transition-colors cursor-pointer">Clean Hydrogen &amp; Energy Transition</li></ul></div><div class="lg:col-span-3 space-y-3"><h4 class="font-label-caps text-label-caps uppercase tracking-widest text-[#336699]">Edinburgh HQ &amp; Contact</h4><div class="space-y-2 font-body-sm text-body-sm text-[#526174]"><p class="leading-relaxed">The Auction House<br>63A George Street<br>Edinburgh EH2 2JG<br>United Kingdom</p><div class="pt-2 space-y-1"><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-[#336699]">call</span><a class="hover:text-[#172B4D] transition-colors text-[#172B4D] font-medium" href="tel:+441313782740">+44 (0) 131 378 2740</a></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-[#336699]">mail</span><a class="hover:text-[#172B4D] transition-colors text-[#172B4D] font-medium" href="mailto:hello@ventus-international.com">hello@ventus-international.com</a></p></div></div></div></div><div class="pt-6 border-t border-[#DCE3EA] flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-[#526174]"><div class="flex flex-wrap items-center gap-4"><span class="font-label-caps text-label-caps uppercase text-[#526174]">© Ventus Resources Ltd. All rights reserved.</span><a class="hover:text-[#172B4D] transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="hover:text-[#172B4D] transition-colors" data-path="cookie-policy" href="#">Cookie Policy</a><a class="hover:text-[#172B4D] transition-colors" data-path="terms-of-business" href="#">Terms of Business</a></div><div class="flex items-center gap-2"><a class="text-[#336699] hover:text-[#172B4D] transition-colors font-label-md text-label-md uppercase tracking-wider flex items-center gap-1 font-semibold" href="https://www.linkedin.com" rel="noopener noreferrer" target="_blank"><span class="">LinkedIn</span><span class="material-symbols-outlined text-[14px]">arrow_outward</span></a></div></div></div></footer>
+
+
+</body></html>
