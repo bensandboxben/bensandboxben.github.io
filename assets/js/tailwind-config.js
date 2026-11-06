@@ -1,4 +1,3 @@
-
 tailwind.config = {
   darkMode: "class",
   theme: {
@@ -54,71 +53,20 @@ tailwind.config = {
         "body-md": ["Plus Jakarta Sans", "sans-serif"]
       },
       fontSize: {
-        "label-md": ["12px", {
-          "lineHeight": "16px",
-          "letterSpacing": "0.06em",
-          "fontWeight": "600"
-        }],
-        "label-caps": ["11px", {
-          "lineHeight": "14px",
-          "letterSpacing": "0.12em",
-          "fontWeight": "700"
-        }],
-        "headline-sm": ["22px", {
-          "lineHeight": "28px",
-          "fontWeight": "500"
-        }],
-        "headline-md": ["28px", {
-          "lineHeight": "36px",
-          "letterSpacing": "-0.01em",
-          "fontWeight": "500"
-        }],
-        "headline-lg": ["38px", {
-          "lineHeight": "46px",
-          "letterSpacing": "-0.02em",
-          "fontWeight": "400"
-        }],
-        "title-lg": ["20px", {
-          "lineHeight": "28px",
-          "letterSpacing": "-0.01em",
-          "fontWeight": "600"
-        }],
-        "title-md": ["17px", {
-          "lineHeight": "24px",
-          "fontWeight": "600"
-        }],
-        "headline-lg-mobile": ["28px", {
-          "lineHeight": "36px",
-          "letterSpacing": "-0.01em",
-          "fontWeight": "400"
-        }],
-        "display-hero": ["52px", {
-          "lineHeight": "60px",
-          "letterSpacing": "-0.02em",
-          "fontWeight": "400"
-        }],
-        "label-lg": ["14px", {
-          "lineHeight": "20px",
-          "letterSpacing": "0.02em",
-          "fontWeight": "600"
-        }],
-        "body-lg": ["18px", {
-          "lineHeight": "28px",
-          "fontWeight": "400"
-        }],
-        "body-sm": ["13px", {
-          "lineHeight": "20px",
-          "fontWeight": "400"
-        }],
-        "display-hero-mobile": ["34px", {
-          "lineHeight": "42px",
-          "letterSpacing": "-0.01em",
-          "fontWeight": "400"
-        }],
-        "body-md": ["15px", {
-          "lineHeight": "24px",
-          "fontWeight": "400"
-        }]
+        "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600"}],
+        "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "700"}],
+        "headline-sm": ["22px", {"lineHeight": "28px", "fontWeight": "500"}],
+        "headline-md": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "500"}],
+        "headline-lg": ["38px", {"lineHeight": "46px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+        "title-lg": ["20px", {"lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+        "title-md": ["17px", {"lineHeight": "24px", "fontWeight": "600"}],
+        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+        "display-hero": ["52px", {"lineHeight": "60px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+        "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+        "body-sm": ["13px", {"lineHeight": "20px", "fontWeight": "400"}],
+        "display-hero-mobile": ["34px", {"lineHeight": "42px", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+        "body-md": ["15px", {"lineHeight": "24px", "fontWeight": "400"}]
       }
     }
   }
